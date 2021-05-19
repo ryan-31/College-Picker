@@ -36,7 +36,6 @@ public class CollegePicker {
             String[] schoolNames = new String[numSchools];
 
             for (int y = 0; y < numSchools; y++){
-                System.out.println("Enter the name of school #" + (y+1));
                 schoolNames[y] = JOptionPane.showInputDialog("Enter the name of school #" + (y+1));
             }
 
